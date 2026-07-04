@@ -1,4 +1,3 @@
-/* Variáveis para Tema Claro (Padrão) */
 :root {
     --bg-body: #f4f7f6;
     --text-main: #333333;
@@ -10,7 +9,6 @@
     --transition-speed: 0.3s;
 }
 
-/* Variáveis para Tema Escuro */
 body.dark-theme {
     --bg-body: #0f141c;
     --text-main: #f1f2f6;
@@ -169,7 +167,7 @@ article h3 {
     margin-top: 0.75rem;
     display: flex;
     gap: 1rem;
-    flex-wrap: wrap; /* Correção: Evita o overflow no mobile */
+    flex-wrap: wrap;
 }
 
 .project-links a {
@@ -234,14 +232,13 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsividade Aprimorada para Dispositivos Móveis */
 @media (max-width: 768px) {
     header {
-        padding: 1.5rem 1rem; /* Correção: Reduz espaço em branco inútil no topo */
+        padding: 1.5rem 1rem;
     }
 
     .theme-btn {
-        position: relative; /* Correção: Remove o botão do fluxo absoluto para não sobrepor a foto */
+        position: relative;
         top: 0;
         right: 0;
         margin-bottom: 1rem;
@@ -256,7 +253,7 @@ footer a {
     
     nav ul {
         flex-direction: row; 
-        flex-wrap: wrap; /* Correção: Mantém a navegação compacta em vez de criar uma lista vertical enorme */
+        flex-wrap: wrap;
         justify-content: center;
         gap: 0.5rem 1rem;
     }
